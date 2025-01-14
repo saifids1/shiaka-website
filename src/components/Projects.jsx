@@ -60,8 +60,8 @@ const Projects = () => {
                     {item.title}
                   </Typography>
                 </div>
-                <div className="border-t-2 border-[#ab7511] my-4 w-[550px]"></div>
-                <div className="flex justify-between w-[550px]">
+                <div className="border-t-2 border-[#ab7511] my-4 md:w-[550px]"></div>
+                <div className="flex justify-between md:w-[550px]">
                   <div className="flex">
                     <div>
                       <MdOutlineLocationOn className="text-2xl text-[#ab7511]" />

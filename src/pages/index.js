@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Main />
       <Footer />
     </>
