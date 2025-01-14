@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #eee;
+}
+
+.building-bg {
+  background-image: url("/building.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+@media screen and (max-width: 640px) {
+  .building-bg {
+    background-image: url("/building.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
+}
