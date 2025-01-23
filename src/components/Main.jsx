@@ -47,21 +47,19 @@ const Main = () => {
       {/* <div className="relative w-full h-[588px]" style={{backgroundImage:'url(/slide1-bg.jpg)'}}>
         <div className="absolute inset-0 building-bg">
           <div className=" text-white text-4xl font-bold z-10 px-4 md:px-32 flex flex-col h-full justify-center">
-            <div>
+            <div className="relative">
               <Image
-                src={"/shiaka-logo.png"}
+                src={"/logo.png"}
                 width={1200}
                 height={1200}
-                alt={"Shiaka Building"}
-                className="!w-[550px] md:w-[200px] rounded-lg transform transition-transform duration-300 ease-in-out hover:scale-105"
+                alt={"logo"}
+                className="w-[550px] md:w-[450px] relative md:-right-[25px] bottom-[0.5rem] "
               />
             </div>
-            <Typography className="text-white font-bold text-4xl">
-              Building Inspiring Spaces
-            </Typography>
-            <Typography className="text-[#ab7511] text-xl">
-              We Build Inspiring Residential & Commercial Spaces
-            </Typography>
+            <div className="relative bottom-40">
+              <Typography className="text-[#1b3734] font-bold text-4xl"></Typography>
+              <Typography className="text-[#ab7511] text-xl"></Typography>
+            </div>
           </div>
         </div>
       </div> */}
@@ -70,7 +68,7 @@ const Main = () => {
           <Typography className="uppercase">What we do</Typography>
         </div>
         <div>
-          <Typography className="font-bold w-[400px]" variant="h2">
+          <Typography className="font-bold md:w-[400px]" variant="h2">
             Multi-Disciplined{" "}
             <span className="text-[#ab7511]">Engineering Solutions</span>
           </Typography>

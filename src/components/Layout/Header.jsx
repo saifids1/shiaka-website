@@ -8,6 +8,15 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
+const textElem = [
+  { link: "/", name: "Home" },
+  { link: "/about", name: "About" },
+  { link: "/services", name: "Services" },
+  { link: "/gallery", name: "Gallery" },
+  { link: "/contact", name: "Contact Us" },
+];
+
+
 function NavList() {
   return (
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:gap-6">

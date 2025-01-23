@@ -40,7 +40,7 @@ export default function Footer() {
               About Us
             </span>
           </a>
-          <div className="mt-6 lg:max-w-sm">
+          {/* <div className="mt-6 lg:max-w-sm">
             <Typography className="text-sm text-gray-800">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam.
@@ -49,7 +49,7 @@ export default function Footer() {
               Eaque ipsa quae ab illo inventore veritatis et quasi architecto
               beatae vitae dicta sunt explicabo.
             </Typography>
-          </div>
+          </div> */}
         </div>
         <div className="space-y-2 text-sm">
           <Typography className="text-base font-bold tracking-wide text-gray-900 mb-6">
@@ -75,7 +75,7 @@ export default function Footer() {
               aria-label="Our phone"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-[#ab7511] flex items-center"
             >
-              050 888 6972
+              123 456 7890
             </a>
           </div>
           <div className="flex gap-2">
@@ -98,10 +98,10 @@ export default function Footer() {
               aria-label="Our email"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-[#ab7511] flex items-center"
             >
-              alfonoon.ad@gmail.com
+              mail@gmail.com
             </a>
           </div>
-          <div className="flex gap-2">
+          {/* <div className="flex gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -128,7 +128,7 @@ export default function Footer() {
               aria-label="Our address"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-[#ab7511] flex items-center"
             >
-              Makkah, Wali Al-Ahad Scheme No. (1), (32) Street
+              Makkah
             </a>
           </div>
           <div className="flex gap-2">
@@ -155,7 +155,7 @@ export default function Footer() {
             >
               Saturday - Thursday: 9:00 AM - 6:00 PM
             </a>
-          </div>
+          </div> */}
         </div>
         <div>
           <span className="text-base font-bold tracking-wide text-gray-900">
@@ -175,13 +175,13 @@ export default function Footer() {
               <AiOutlineYoutube />
             </div>
           </div>
-          <div className="mt-4">
+          {/* <div className="mt-4">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3716.6337078349866!2d39.69599151611328!3d21.325485229492188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c21663412cad7d%3A0x2a1ef57d3c74d786!2sWalyal%20Ahd%20Dist.%2024567%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sbd!4v1677782062188!5m2!1sen!2sbd"
               frameborder="0"
               className="border border-[#ab7511] rounded-lg"
             ></iframe>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
