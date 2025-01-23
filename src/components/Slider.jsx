@@ -24,7 +24,7 @@ const images = [
         logo: "",
     },
     {
-        src: "/slider3.jpg",
+        src: "/slider6.png",
         alt: "slider 3",
         logo: "/shiaka-logo.png",
     },
