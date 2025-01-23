@@ -1,4 +1,3 @@
-import { Header } from "@/components/Layout/Header";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@material-tailwind/react";
 import { Header } from "@/components/Layout/Header";

@@ -25,60 +25,60 @@ function NavList() {
 
         className="p-1 font-[600] text-[15px]"
       >
-        <a
+        <Link
           href="/"
           className="menu flex items-center hover:text-[#ab7512] transition-colors"
         >
           Home
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
 
         className="p-1 font-[600] text-[15px]"
       >
-        <a
+        <Link
           href="/About"
           className="menu border-2 border-gray-500 flex items-center hover:text-[#ab7512] transition-colors"
         >
           About
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
 
         className="p-1 font-[600] text-[15px]"
       >
-        <a
+        <Link
           href="#"
           className="menu border-2 border-gray-500 flex items-center hover:text-[#ab7512] transition-colors"
         >
           Services
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
 
         className="p-1 font-[600] text-[15px]"
       >
-        <a
+        <Link
           href="#"
           className="menu border-2 border-gray-500 flex items-center hover:text-[#ab7512] transition-colors"
         >
           Gallery
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
 
         className="p-1 font-[600] text-[15px]"
       >
-        <a
+        <Link
           href="#"
           className="px-3 rounded-br-[8px] rounded-tl-[8px] border border-gray-600 flex items-center hover:text-[#ab7512] transition-colors"
         >
           Contact Us
-        </a>
+        </Link>
       </Typography>
     </ul>
   );
