@@ -40,16 +40,15 @@ export default function Footer() {
               About Us
             </span>
           </a>
-          {/* <div className="mt-6 lg:max-w-sm">
-            <Typography className="text-sm text-gray-800">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
+          <div className="mt-6">
+            <Typography className="text-gray-800">
+              Shiaka Alarobah Contracting Co. Ltd.
             </Typography>
-            <Typography className="mt-4 text-sm text-gray-800">
+            {/* <Typography className="mt-4 text-sm text-gray-800">
               Eaque ipsa quae ab illo inventore veritatis et quasi architecto
               beatae vitae dicta sunt explicabo.
-            </Typography>
-          </div> */}
+            </Typography> */}
+          </div>
         </div>
         <div className="space-y-2 text-sm">
           <Typography className="text-base font-bold tracking-wide text-gray-900 mb-6">

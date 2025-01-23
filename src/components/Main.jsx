@@ -3,6 +3,7 @@ import React from "react";
 import Projects from "./Projects";
 import DesignFuture from "./DesignFuture";
 import Image from "next/image";
+import Slider from "./Slider";
 
 const solutionCards = [
   {
@@ -40,25 +41,7 @@ const solutionCards = [
 const Main = () => {
   return (
     <div className="">
-      <div className="relative w-full h-[680px]">
-        <div className="absolute inset-0 building-bg bg-[#001f3f]">
-          <div className=" text-white text-4xl font-bold z-10 px-4 md:px-32 flex flex-col h-full justify-center">
-            <div className="relative">
-              <Image
-                src={"/logo.png"}
-                width={1200}
-                height={1200}
-                alt={"logo"}
-                className="w-[550px] md:w-[450px] relative md:-right-[25px] bottom-[0.5rem] "
-              />
-            </div>
-            <div className="relative bottom-40">
-              <Typography className="text-[#1b3734] font-bold text-4xl"></Typography>
-              <Typography className="text-[#ab7511] text-xl"></Typography>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Slider/>
       {/* <div className="container mx-auto px-4 pt-10">
         <div>
           <Typography className="uppercase">What we do</Typography>

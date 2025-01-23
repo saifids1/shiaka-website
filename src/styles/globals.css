@@ -8,7 +8,7 @@ body {
 
 .building-bg {
   background-image: url("/building.png");
-  background-position: right;
+  background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 48%;
 }
