@@ -3,6 +3,7 @@ import React from "react";
 import Projects from "./Projects";
 import DesignFuture from "./DesignFuture";
 import Image from "next/image";
+import Slider from "./Slider";
 
 const solutionCards = [
   {
@@ -40,8 +41,11 @@ const solutionCards = [
 const Main = () => {
   return (
     <div className="">
-      <div className="relative w-full h-[680px]">
-        <div className="absolute inset-0 building-bg bg-[#001f3f]">
+    <div>
+      <Slider/>
+    </div>
+      {/* <div className="relative w-full h-[588px]" style={{backgroundImage:'url(/slide1-bg.jpg)'}}>
+        <div className="absolute inset-0 building-bg">
           <div className=" text-white text-4xl font-bold z-10 px-4 md:px-32 flex flex-col h-full justify-center">
             <div className="relative">
               <Image
@@ -58,7 +62,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="container mx-auto px-4 pt-10">
         <div>
           <Typography className="uppercase">What we do</Typography>
@@ -94,6 +98,8 @@ const Main = () => {
       <div className="container mx-auto px-4 py-10">
         <DesignFuture />
       </div> */}
+
+      
     </div>
   );
 };
