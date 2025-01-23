@@ -17,7 +17,7 @@ function NavList() {
         className="p-1 font-[600] text-[15px]"
       >
         <a
-          href="#"
+          href="/"
           className="menu flex items-center hover:text-[#ab7512] transition-colors"
         >
           Home
@@ -29,7 +29,7 @@ function NavList() {
         className="p-1 font-[600] text-[15px]"
       >
         <a
-          href="#"
+          href="/About"
           className="menu border-2 border-gray-500 flex items-center hover:text-[#ab7512] transition-colors"
         >
           About

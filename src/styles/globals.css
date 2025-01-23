@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Arista";
+  src: url('/fonts/Arista2.0.ttf');
+}
 
 body {
   background-color: #eee;
@@ -27,4 +31,7 @@ body {
   border-radius: 8px 0 8px 0px;
   display: flex;
   align-items: center;
+}
+.slider-text{
+  font-family: "Arista", sans-serif;
 }

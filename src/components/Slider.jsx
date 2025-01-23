@@ -21,7 +21,7 @@ const images = [
     {
         src: "/slider5.png",
         alt: "slider 2",
-        logo: "",
+        text: "Specialist in Modern Consteuction",
     },
     {
         src: "/slider6.png",
@@ -44,7 +44,7 @@ export default function Slider() {
                     prevEl: ".custom-prev", // Define the prev button
                 }}
                 loop={true}
-                autoplay={{ duration: 3000, disableOnInteraction:true }}
+                autoplay={{ duration: 3000, disableOnInteraction: true }}
                 modules={[Pagination, Navigation, EffectFade, Autoplay]}
                 className="mySwiper"
             >
@@ -55,13 +55,14 @@ export default function Slider() {
                             alt={image.alt}
                             className=" w-[100%] h-[200px] md:h-[620px] mx-auto"
                         />
+                        <div className="absolute bottom-0 w-[93%] h-full flex items-center justify-start ms-[6.5rem]">
+                            <Typography variant="" className="slider-text text-[#0a2d32] w-[210px] md:w-[280px] lg:w-[310px] xl:w-[520px] tracking-wider slider-text xl:text-[3rem] text-center">
+                                {image.text}
+                            </Typography>
+                        </div>
+
                         <div className="absolute bottom-0 w-[93%] h-full flex items-center justify-start ms-10">
-                            {/* <Typography variant="" className="text-white w-[210px] md:w-[280px] lg:w-[310px] xl:w-[520px] tracking-wider slider-text xl:text-[2.50rem] text-center">
-                {image.text}
-              </Typography> */}
                             <img src={image.logo} className="text-white w-[210px] md:w-[280px] lg:w-[310px] xl:w-[600px] tracking-wider slider-text xl:text-[2.50rem] text-center" />
-
-
                         </div>
                     </SwiperSlide>
                 ))}
