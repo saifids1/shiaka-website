@@ -21,3 +21,10 @@ body {
     background-size: 80%;
   }
 }
+.menu {
+  border: 1px solid grey;
+  padding: 0px 10px;
+  border-radius: 8px 0 8px 0px;
+  display: flex;
+  align-items: center;
+}
