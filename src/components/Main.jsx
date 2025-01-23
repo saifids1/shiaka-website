@@ -41,7 +41,30 @@ const solutionCards = [
 const Main = () => {
   return (
     <div className="">
+    <div>
       <Slider/>
+    </div>
+      {/* <div className="relative w-full h-[588px]" style={{backgroundImage:'url(/slide1-bg.jpg)'}}>
+        <div className="absolute inset-0 building-bg">
+          <div className=" text-white text-4xl font-bold z-10 px-4 md:px-32 flex flex-col h-full justify-center">
+            <div>
+              <Image
+                src={"/shiaka-logo.png"}
+                width={1200}
+                height={1200}
+                alt={"Shiaka Building"}
+                className="!w-[550px] md:w-[200px] rounded-lg transform transition-transform duration-300 ease-in-out hover:scale-105"
+              />
+            </div>
+            <Typography className="text-white font-bold text-4xl">
+              Building Inspiring Spaces
+            </Typography>
+            <Typography className="text-[#ab7511] text-xl">
+              We Build Inspiring Residential & Commercial Spaces
+            </Typography>
+          </div>
+        </div>
+      </div> */}
       {/* <div className="container mx-auto px-4 pt-10">
         <div>
           <Typography className="uppercase">What we do</Typography>
@@ -77,6 +100,8 @@ const Main = () => {
       <div className="container mx-auto px-4 py-10">
         <DesignFuture />
       </div> */}
+
+      
     </div>
   );
 };

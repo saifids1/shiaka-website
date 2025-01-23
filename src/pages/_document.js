@@ -6,6 +6,7 @@ export default function Document() {
       <Head>
         <title>Shiaka Alarobah</title>
       </Head>
+      
       <body>
         <Main />
         <NextScript />
