@@ -94,11 +94,11 @@ export default function Footer() {
               />
             </svg>
             <a
-              href="mailto:info@lorem.mail"
+              href="mailto:yousuf.seikh@shiaka-alarobah.com"
               aria-label="Our email"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-[#ab7511] flex items-center"
             >
-              mail@gmail.com
+              yousuf.seikh@shiaka-alarobah.com
             </a>
           </div>
           {/* <div className="flex gap-2">
