@@ -33,48 +33,54 @@ const images = [
 ];
 
 export default function Slider() {
-    return (
-        <div className="relative">
-            <Swiper
-                pagination={{
-                    dynamicBullets: false,
-                }}
-                navigation={{
-                    nextEl: ".custom-next", // Define the next button
-                    prevEl: ".custom-prev", // Define the prev button
-                }}
-                loop={true}
-                autoplay={{ duration: 3000, disableOnInteraction: true }}
-                modules={[Pagination, Navigation, EffectFade, Autoplay]}
-                className="mySwiper"
-            >
-                {images.map((image, index) => (
-                    <SwiperSlide key={index}>
-                        <img
-                            src={image.src}
-                            alt={image.alt}
-                            className=" w-[100%] h-[200px] md:h-[620px] mx-auto"
-                        />
-                        <div className="absolute bottom-0 w-[93%] h-full flex items-center justify-start ms-[6.5rem]">
-                            <Typography variant="" className="slider-text text-[#0a2d32] w-[210px] md:w-[280px] lg:w-[310px] xl:w-[520px] tracking-wider slider-text xl:text-[3rem] text-center">
-                                {image.text}
-                            </Typography>
-                        </div>
+  return (
+    <div className="relative">
+      <Swiper
+        pagination={{
+          dynamicBullets: false,
+        }}
+        navigation={{
+          nextEl: ".custom-next", // Define the next button
+          prevEl: ".custom-prev", // Define the prev button
+        }}
+        loop={true}
+        autoplay={{ duration: 3000, disableOnInteraction: true }}
+        modules={[Pagination, Navigation, EffectFade, Autoplay]}
+        className="mySwiper"
+      >
+        {images.map((image, index) => (
+          <SwiperSlide key={index}>
+            <img
+              src={image.src}
+              alt={image.alt}
+              className=" w-[100%] h-[200px] md:h-[620px] mx-auto"
+            />
+            <div className="absolute bottom-0 w-[93%] h-full flex items-center justify-start ms-[6.5rem]">
+              <Typography
+                variant=""
+                className="slider-text text-[#0a2d32] w-[210px] md:w-[280px] lg:w-[310px] xl:w-[520px] tracking-wider slider-text xl:text-[3rem] text-center"
+              >
+                {image.text}
+              </Typography>
+            </div>
 
-                        <div className="absolute bottom-0 w-[93%] h-full flex items-center justify-start ms-10">
-                            <img src={image.logo} className="text-white w-[210px] md:w-[280px] lg:w-[310px] xl:w-[600px] tracking-wider slider-text xl:text-[2.50rem] text-center" />
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+            <div className="absolute bottom-0 w-[93%] h-full flex items-center justify-start ms-10">
+              <img
+                src={image.logo}
+                className="text-white w-[210px] md:w-[280px] lg:w-[310px] xl:w-[600px] tracking-wider slider-text xl:text-[2.50rem] text-center"
+              />
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
 
-            {/* Custom Navigation Buttons */}
-            <button className="custom-prev absolute left-0 top-1/2 transform -translate-y-1/2 text-white text-3xl bg-black bg-opacity-50 p-2 rounded-full z-[999] ml-1">
-                <FaAngleLeft />
-            </button>
-            <button className="custom-next absolute right-0 top-1/2 transform -translate-y-1/2 text-white text-3xl bg-black bg-opacity-50 p-2 rounded-full z-[999] mr-1">
-                <FaAngleRight />
-            </button>
-        </div>
-    );
+      {/* Custom Navigation Buttons */}
+      <button className="custom-prev absolute left-0 top-1/2 transform -translate-y-1/2 text-white text-3xl bg-black bg-opacity-50 p-2 rounded-full z-[999] ml-1">
+        <FaAngleLeft />
+      </button>
+      <button className="custom-next absolute right-0 top-1/2 transform -translate-y-1/2 text-white text-3xl bg-black bg-opacity-50 p-2 rounded-full z-[999] mr-1">
+        <FaAngleRight />
+      </button>
+    </div>
+  );
 }
