@@ -14,14 +14,14 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa"; // Import custom nav
 
 const images = [
     {
-        src: "/slider1.jpg",
+        src: "/Slider4_1.png",
         alt: "slider 1",
         logo: "",
     },
     {
         src: "/slider5.png",
         alt: "slider 2",
-        text: "Specialist in Modern Consteuction",
+        text: "Specialist in Modern Construction",
     },
     {
         src: "/slider6.png",
